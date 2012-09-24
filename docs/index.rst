@@ -24,7 +24,7 @@ hashes are made simple.
 Overview
 ========
 
- * :doc:`installation`
+ * :doc:`install`
 
 Indices and tables
 ==================
