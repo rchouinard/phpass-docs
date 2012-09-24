@@ -13,7 +13,9 @@ Introduction
 The PHP Password Library (PHPassLib) is a library for PHP 5.3+ designed
 to make working with passwords as easy as possible. Tasks such as
 creating password hashes, verifying passwords, and migrating stored
-hashes are made simple::
+hashes are made simple.
+
+.. code-block:: php
 
     <?php
     require 'PHPassLib.php';
