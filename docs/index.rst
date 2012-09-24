@@ -3,15 +3,26 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to PHP Password Library's documentation!
-================================================
+========================================================================
+PHP Password Library |release| Documentation
+========================================================================
 
-Contents:
+Introduction
+============
 
-.. toctree::
-   :maxdepth: 2
+The PHP Password Library (PHPassLib) is a library for PHP 5.3+ designed
+to make working with passwords as easy as possible. Tasks such as
+creating password hashes, verifying passwords, and migrating stored
+hashes are made simple::
 
-
+    <?php
+    require 'PHPassLib.php';
+    use PHPassLib\Hash\BCrypt;
+    
+    $hash = BCrypt::hash($password);
+    if (BCrypt::verify($password, $hash)) {
+        // Authentication passed!
+    }
 
 Indices and tables
 ==================
